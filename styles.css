@@ -1,0 +1,44 @@
+body {
+    color: white; 
+    background-image: url("../wp10007687.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#title {
+    margin: 50vh;
+}
+
+#excerpt {
+    margin: 50vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#excerpt p {
+    display: flex;
+    text-align: center;
+}
+
+#about {
+    margin: 50vh;
+}
+
+#about_block {
+    display: flex;
+}
+
+img {
+    max-height: 50vh;
+}
