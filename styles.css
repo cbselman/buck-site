@@ -1,4 +1,7 @@
+@font-face { font-family: Nulshock; src: url('nulshock/nulshock_bd.otf'); } 
+
 body {
+    font-family: Nulshock;
     color: white;
     background-image: url(background2.webp);
     background-repeat: no-repeat;
@@ -10,6 +13,15 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 25px;
+}
+
+a, a:visited {
+    color: white;
+    transition: all 0.5s;
+}
+
+a:hover {
+    font-size: 30px;
 }
 
 h1 {
